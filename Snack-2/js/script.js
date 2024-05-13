@@ -18,10 +18,11 @@ console.log(invitati);
  //chiedi all'utente il suo nome e comunicagli se può partecipare o no alla festa.
 
  const userName = prompt('Type your name');
+ userName = userName.charAt(0),toUpper.Case() + userName.substring(1,userName.length.tolowerCase());
  
- if(invitati === userName){
-    console.log(userName);
+ if(invitati.includes(userName)){
+    console.log('invitato!');
  }
  else{
-    
+    console.log('non invitato!')
  }
