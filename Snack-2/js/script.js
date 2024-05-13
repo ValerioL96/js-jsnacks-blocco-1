@@ -16,3 +16,12 @@ const invitati = [
 console.log(invitati);
 
  //chiedi all'utente il suo nome e comunicagli se può partecipare o no alla festa.
+
+ const userName = prompt('Type your name');
+ 
+ if(invitati === userName){
+    console.log(userName);
+ }
+ else{
+    
+ }
